@@ -6,9 +6,8 @@ class Generator:
     IGNORED = ['"', '\'']
     # Symbols that should not have space preceding it.
     NO_SPACE_BEFORE = [',', '.', '?', ':', ';', ')', '!', "n't", "''", "'t"]
-    NO_SPACE_BEFORE_PREFIX = ['.']
+    NO_SPACE_BEFORE_PREFIX = ['.', '\'']
     NO_SPACE_AFTER = ['(', '``']
-    ENCLOSURES = {'(': ')', '\'': '\'', '``': '\'\''}
     START = '<s>'
     END = '</s>'
 
